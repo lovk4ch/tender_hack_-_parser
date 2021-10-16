@@ -26,28 +26,26 @@ def findProcentResult(path):
     return
 """
 
-def Main2(path):
+
+def Main(path):
     for order in EnumerablesFiles.EnumerableOrder(path):
         print("order: " + order)
         arr = []
         for docx in EnumerablesFiles.EnumerableDocx(path + order):
-            result , data = BuildData(docx)
+            result, data = BuildData(docx)
             if result is True:
                 arr.append(data)
                 info = []
                 arr.append(info)
                 for name in data:
-                    info.append(isColumnType(name,names))
-        SaveJson(path + order + ".json",arr)
+                    info.append(isColumnType(name, names))
+        SaveJson(path + order + ".json", arr)
     return
 
 
-
-
-
-def SaveJson(path,data):
+def SaveJson(path, data):
     with open(path, 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)
+        json.dump(data, f, ensure_ascii=False, indent=4)
     return
 
 
@@ -56,15 +54,15 @@ def BuildData(path):
     try:
         Document(path)
     except Exception as e:
-            print(e)
-            return False ,None
+        print(e)
+        return False, None
     result = []
     for t in Document(path).tables:
         tab = [];
         result.append(tab)
         try:
             sumColum = []
-            for i in range(0,t._column_count):
+            for i in range(0, t._column_count):
                 if t.rows[0] is None:
                     continue;
                 if t._cells is None:
@@ -84,28 +82,28 @@ def BuildData(path):
                         r.append(ret);
 
         except Exception as e:
-             print(e)
+            print(e)
     return True, result
- 
+
 
 def parsed(str):
-    
     info = []
-    info.append(isColumnType(str,names))
-    info.append(isColumnType(str,values))
-    info.append(isColumnType(str,items))
+    info.append(isColumnType(str, names))
+    info.append(isColumnType(str, values))
+    info.append(isColumnType(str, items))
     return Enumerable(info).max() > 0
+
 
 def writeRow():
     return
 
-def isColumnType(name,indificators):
+
+def isColumnType(name, indificators):
     count = 0.0
     for indificator in indificators:
         if indificator in name:
             count += 1.0
-    return count/len(indificators) #, count/name.split()
+    return count / len(indificators)  # , count/name.split()
 
 
-Main2("data/");
-#findProcentResult("data/");
+Main("data/")
