@@ -4,6 +4,7 @@ import json
 from docx import Document
 import EnumerablesFiles
 from py_linq import Enumerable
+import xml.etree.ElementTree as ET
 
 names = []
 with open('Name.json') as f:
@@ -26,6 +27,26 @@ def findProcentResult(path):
     return
 """
 
+def GetElement(arr, root):
+    element = ET.SubElement(root, "node")
+    if isinstance(arr, str):
+        element.text = arr
+        return element
+    if isinstance(arr, float):
+        element.text = arr
+        return element
+    for node in arr:
+        GetElement(node, element)
+    return element
+
+def CreateXml(path, arr):
+    # we make root element
+    root = ET.Element("node")
+    GetElement(arr, root)
+    tree = ET.ElementTree(root)
+
+    # write the tree into an XML file
+    tree.write(path, encoding='utf-8', xml_declaration=True)
 
 def Main(path):
     for order in EnumerablesFiles.EnumerableOrder(path):
@@ -40,7 +61,8 @@ def Main(path):
                 for name in data:
                     info.append(isColumnType(name, names))
                 arr.append(info)
-        SaveJson(path + order + ".xml", arr)
+        print(arr)
+        CreateXml(path + order + ".xml", arr)
     return
 
 
@@ -70,14 +92,17 @@ def BuildData(path):
 
             columns_count = len(header)
             if columns_count > 2:
-                for row in t.rows:
-                    row_data = []
-                    if row.cells[columns_count - 1].text:
-                        for col in header:
-                            row_data.append(row.cells[col].text)
+                try:
+                    for row in t.rows:
+                        row_data = []
+                        if row.cells[columns_count - 1].text:
+                            for col in header:
+                                row_data.append(row.cells[col].text)
 
-                    if row_data:
-                        tab.append(row_data)
+                        if row_data:
+                            tab.append(row_data)
+                except Exception as e:
+                    print(e)
         except Exception as e:
             print(e)
 
