@@ -35,11 +35,12 @@ def Main(path):
             result, data = BuildData(docx)
             if result is True:
                 arr.append(data)
+
                 info = []
-                arr.append(info)
                 for name in data:
                     info.append(isColumnType(name, names))
-        SaveJson(path + order + ".json", arr)
+                arr.append(info)
+        SaveJson(path + order + ".xml", arr)
     return
 
 
@@ -58,32 +59,37 @@ def BuildData(path):
         return False, None
     result = []
     for t in Document(path).tables:
-        tab = [];
-        result.append(tab)
+        tab = []
         try:
-            sumColum = []
+            header = []
             for i in range(0, t._column_count):
                 if t.rows[0] is None:
-                    continue;
+                    continue
                 if t._cells is None:
-                    continue;
+                    continue
                 if parsed(t.rows[0].cells[i].text):
-                    sumColum.append(i)
-            if len(sumColum) > 2:
-                for row in t.rows:
-                    r = []
-                    tab.append(r)
-                    for colum in sumColum:
-                        ret = ""
-                        try:
-                            ret = row.cells[colum].text
-                        except Exception as e:
-                            print(e)
-                        r.append(ret);
+                    header.append(i)
 
+            columns_count = len(header)
+            if columns_count > 2:
+                for row in t.rows:
+                    row_data = []
+                    if row.cells[columns_count - 1].text:
+                        for col in header:
+                            row_data.append(row.cells[col].text)
+
+                    if row_data:
+                        tab.append(row_data)
         except Exception as e:
             print(e)
-    return True, result
+
+        if tab:
+            result.append(tab)
+
+    if result:
+        return True, result
+    else:
+        return False, None
 
 
 def parsed(str):
