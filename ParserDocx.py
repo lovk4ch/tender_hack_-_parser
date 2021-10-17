@@ -13,6 +13,7 @@ with open('Name.json') as f:
 values = names[1]
 items = names[2]
 names = names[0]
+price = names[3]
 
 """
 def findProcentResult(path):
@@ -119,6 +120,7 @@ def parsed(str):
     info.append(isColumnType(str, names))
     info.append(isColumnType(str, values))
     info.append(isColumnType(str, items))
+    info.append(isColumnType(str, price))
     return Enumerable(info).max() > 0
 
 
