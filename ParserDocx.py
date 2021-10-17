@@ -61,7 +61,6 @@ def Main(path):
                 for name in data:
                     info.append(isColumnType(name, names))
                 arr.append(info)
-        print(arr)
         CreateXml(path + order + ".xml", arr)
     return
 
