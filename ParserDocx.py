@@ -63,9 +63,7 @@ def BuildData(path):
         try:
             header = []
             for i in range(0, t._column_count):
-                if t.rows[0] is None:
-                    continue
-                if t._cells is None:
+                if t.rows[0] is None or t._cells is None:
                     continue
                 if parsed(t.rows[0].cells[i].text):
                     header.append(i)

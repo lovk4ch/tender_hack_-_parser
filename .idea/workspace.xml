@@ -20,105 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce747920-f5c6-43f0-9fd7-3a44627cc846" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ParserDocx.py" beforeDir="false" afterPath="$PROJECT_DIR$/ParserDocx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749756.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/32008749756.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749788.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/32008749788.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749794.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749820.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749834.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749835.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749838.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749850.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749870.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749873.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749880.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749881.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749887.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749889.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749892.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749893.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749894.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749895.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749897.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749898.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749912.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749915.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749932.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749958.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749960.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749967.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749970.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749977.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749980.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749983.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749993.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008749998.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750004.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750006.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750007.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750032.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750051.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750055.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750060.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750079.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750081.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750083.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750084.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750087.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750093.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750122.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750126.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750158.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750165.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750166.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750177.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750186.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750187.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750190.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750194.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750202.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750217.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750222.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750233.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750235.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750246.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750261.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750273.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750282.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750307.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750480.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750504.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750508.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750951.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750960.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008750980.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751045.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751144.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751150.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751159.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751166.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751168.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751173.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751184.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751185.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751190.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751197.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751203.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751213.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751215.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751229.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751231.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751235.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751237.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751252.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751280.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751300.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751301.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751302.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751303.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751306.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/32008751311.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +91,7 @@
       <updated>1634397487022</updated>
       <workItem from="1634397488496" duration="2333000" />
       <workItem from="1634407373013" duration="927000" />
-      <workItem from="1634409108396" duration="18610000" />
+      <workItem from="1634409108396" duration="18976000" />
     </task>
     <servers />
   </component>
